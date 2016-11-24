@@ -21,18 +21,18 @@ body {
   margin: 0;
 }
 
-h2 {
+.card-body h2 {
   display: inline-block;
   margin: 1.3rem 0 0;
   font-weight: normal;
 }
 
-p {
+.card-body p {
   display: inline-block;
   margin: 0 0 1.3rem;
 }
 
-img {
+.card-img img {
   width: 50px;
 }
 
