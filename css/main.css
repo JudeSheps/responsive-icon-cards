@@ -21,6 +21,24 @@ body {
   margin: 0;
 }
 
+.cards {
+  padding: .5em;
+  width: 100%;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-img {
+  text-align: center;
+}
+
+.card-img img {
+  width: 50px;
+}
+
+
 .card-body h2 {
   display: inline-block;
   margin: 1.3rem 0 0;
@@ -30,19 +48,6 @@ body {
 .card-body p {
   display: inline-block;
   margin: 0 0 1.3rem;
-}
-
-.card-img img {
-  width: 50px;
-}
-
-.cards {
-  padding: .5em;
-  width: 100%;
-}
-
-.card-img {
-  text-align: center;
 }
 
 @media only screen and (min-width: 25em) {
