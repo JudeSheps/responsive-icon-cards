@@ -24,7 +24,7 @@ body {
 .cards {
   padding: .5em;
   width: 100%;
-  list-style: none;
+  list-style-type: none;
   margin: 0;
 }
 
@@ -68,6 +68,10 @@ body {
     max-width: 80%;
   }
 
+  .card-body h2 {
+    margin: 0;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -75,6 +79,50 @@ body {
   html {
     line-height: 1.4;
     font-size: 110%;
+  }
+
+  .card {
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    vertical-align: top;
+  }
+
+  .card-body {
+    display: block;
+    text-align: left;
+    margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    line-height: 1.5;
+    font-size: 120%;
+  }
+
+  .card {
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    vertical-align: top;
+  }
+
+  .card-body {
+    display: block;
+    text-align: left;
+    margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    line-height: 1.4;
+    font-size: 130%;
   }
 
   .card {
